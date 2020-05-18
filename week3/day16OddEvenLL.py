@@ -27,7 +27,7 @@ class Solution(object):
             oddPtr, evenPtr = oddPtr.next, evenPtr.next
         return head
 
-def runTest():
+def test():
     # method for test
     def makeLLFromList(nodeList):
         if not nodeList:
@@ -65,4 +65,4 @@ def runTest():
         assert result == testCase["output"], "Expected: {0}, Result: {1}".format(expected, result)
 
 if __name__ == "__main__":
-    runTest()
+    test()
