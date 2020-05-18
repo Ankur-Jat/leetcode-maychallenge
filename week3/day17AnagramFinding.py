@@ -20,8 +20,8 @@ class Solution(object):
 
     def findAnagrams(self, string, pattern):
         """
-        :type s: str
-        :type p: str
+        :type string: str
+        :type pattern: str
         :rtype: List[int]
         """
         # Base case, if string is less than pattern
