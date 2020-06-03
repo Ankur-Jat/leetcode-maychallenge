@@ -43,7 +43,7 @@ class Solution(object):
                     elif tempNodeColor == newColor:
                         queue.append(tempNode)
                     else:
-                        print("Failure is here", index, node, tempNodeColor, newColor)
+                        # print("Failure is here", index, node, tempNodeColor, newColor)
                         return False
                 # print("while", node, index, visited, colorMatrix)
             # print("for", index, visited, colorMatrix)
